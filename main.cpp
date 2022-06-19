@@ -27,5 +27,27 @@ int main()
 
     // Print value of pointer variable. This case equal 500
     cout << "Value of variable pointer points(same variable value 'integer'): " << *ptr << endl;
+
+    // ---Generic pointer----
+    // void* <Pointer name> = null;
+    cout << "\n ---Generic pointer----" << endl;
+    void* pointerGeneric;
+    char letter = 'K';
+    pointerGeneric = &letter;
+    // We have use casting to indicate pointer type
+    cout << "Value of char through variable: " << letter << endl;
+    cout << "Value of char through pointer: " << *(char*)pointerGeneric << endl;
+    cout << "Memory address pointer: " << &pointerGeneric << endl;
+
+    int number = 13;
+    pointerGeneric = &number;
+    pointerGeneric = &number;
+    cout << "\nNumber value: "<< number << endl;
+    cout << "Value of number through pointer: "<< *(int*)pointerGeneric << endl;
+    cout << "Memory address number: "<< &number << endl;
+    cout << "Memory address number: "<< &pointerGeneric << endl;
+    cout << "Memory address store in pointer through number: " << pointerGeneric << endl;
+
+
     return 0;
 }
