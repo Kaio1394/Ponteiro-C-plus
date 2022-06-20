@@ -1,6 +1,7 @@
 #include <iostream>
-
+#include "Header.h"
 using namespace std;
+
 
 int main()
 {
@@ -48,6 +49,27 @@ int main()
     cout << "Memory address number: "<< &pointerGeneric << endl;
     cout << "Memory address store in pointer through number: " << pointerGeneric << endl;
 
+    // ---Reference----
+    cout << "\n---Reference----" << endl;
+    int num {1024};
+    char letter_2 = {'A'};
+    int &ref = num;
+    cout << "Value of number using reference: " << ref << endl;
+    cout << "Value of memory address number using reference: " << &num << endl;
+    cout << "Value of memory address reference: " << &ref << endl;
+    ptr = &num;
+    cout << "Value of memory address through pointer: " << &ptr << endl;
+    cout << "Value through pointer: " << *ptr << endl;
+
+    int n1 = 55;
+    int n2 = 66;
+
+    cout <<"Old value of n1: " << n1 << endl;
+    ChangeNumber(n1, n2);
+    cout <<"Old value of n1: " << n1 << endl;
 
     return 0;
 }
+
+
+

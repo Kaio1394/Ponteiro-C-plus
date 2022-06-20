@@ -1,4 +1,9 @@
 # depslib dependency file v1.0
-1655653616 source:c:\users\kaios\onedrive\documents\estudos-c-plus\ponteiros\ponteiros\main.cpp
+1655687806 source:c:\users\kaios\onedrive\documents\estudos-c-plus\ponteiros\ponteiros\main.cpp
 	<iostream>
+	"Header.h"
+
+1655687773 source:c:\users\kaios\onedrive\documents\estudos-c-plus\ponteiros\ponteiros\functions.cpp
+
+1655687726 c:\users\kaios\onedrive\documents\estudos-c-plus\ponteiros\ponteiros\header.h
 
