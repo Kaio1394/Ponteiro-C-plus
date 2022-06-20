@@ -64,9 +64,9 @@ int main()
     int n1 = 55;
     int n2 = 66;
 
-    cout <<"Old value of n1: " << n1 << endl;
-    ChangeNumber(n1, n2);
-    cout <<"Old value of n1: " << n1 << endl;
+    cout <<"Old value of n1: " << n1 << " and n2: " << n2 << endl;
+    ChangeNumber(&n1, &n2);
+    cout <<"New value of n1: " << n1 << " and n2: " << n2 << endl;
 
     return 0;
 }
